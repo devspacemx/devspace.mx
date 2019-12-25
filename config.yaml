@@ -1,0 +1,13 @@
+baseURL: "https://devspace.mx"
+languageCode: "es-MX"
+title: "DevSpace"
+theme: "novela"
+pygmentsstyle: "monokai"
+paginate: 6
+social:
+  github: "https://github.com/DevSpaceMX"
+  twitter: "https://twitter.com/DevSpaceMX"
+  instagram: "https://instagram.com/devspacemx"
+  facebook: "https://facebook.com/DevSpaceMexico"
+taxonomies:
+  author: authors
