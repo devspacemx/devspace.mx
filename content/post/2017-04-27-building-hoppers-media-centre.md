@@ -1,12 +1,11 @@
 ---
-title: A story of why Forestry loves Hugo
+title: Una historia para llorar
 date: 2017-04-27
 hero: "/images/hero-3.jpg"
-excerpt: Creating a new website for Hopper, one of the top 4 most downloaded travel
-  apps in the U.S, along with Uber, Lyft.
+excerpt: El verdadero motivo por el cual María Andrea lleva 5 días sin bañarse
 timeToRead: 8
 authors:
-- Dennis Brotzky
+- Alfonso Reyes
 
 ---
 To understand why Figma is the best design tool for our company, you have to understand what we do. As a designer, I’ve been crafting digital experiences for the past ten years, having contributed to the growth of companies such as Hopper, Lightspeed, and Breather, among others. Throughout this journey, I’ve had the opportunity to meet the most talented designers, engineers, growth marketers, and build a world-class team to develop startups worldwide. We call this team Narative.
@@ -58,7 +57,7 @@ With Figma, engineers see changes in real time, allowing them to participate in 
 
 Design Programmatically is key for us, so our engineers can simultaneously work on developing components while us, designers, progress with the design creation and copywriters progress with content. We essentially have all of the tools we need to create dynamic, digital products in one place.
 
-## Tabs!
+## Tabs
 
 One of my favourite features, and probably something I took for granted in the past is the ability to open projects in tabs.
 
@@ -164,7 +163,7 @@ One of the challenges I had when learning Gatsby was trying to understand the Ga
 
 In this article I’ll explain the how Gatsby’s lifecycle works and what the Gatsby specific files are for.
 
-## How does Gatsby work?
+## How does Gatsby work
 
 To understand what these files are for, we must first understand how Gatsby works. Gatsby is a static site generator that pulls data from sources you provide and generates a website/app for you.
 
@@ -209,7 +208,7 @@ For example, if you want to move some files manually, such as a Netlify \_redire
 
 From experience, most of my time has revolved around handling data and building pages in gatsby-node.js. This file quickly becomes the piping of your entire website.
 
-## Examples of gatsby-node.js hooks:
+## Examples of gatsby-node.js hooks
 
 - createPages
 - onCreateBabelConfig
@@ -221,7 +220,7 @@ When you think Server Side Rendering you think of a server that takes in request
 
 Naturally, gatsby-ssr.js allows developers to hook into that lifecycle. In my experience, most use cases revolve around injecting CSS, HTML, or Redux state information into the generated output. For example, if you need to insert third party scripts such as Analytics Tracking or a Pixel it can be done on the onRenderBody gatsby-ssr.js hook.
 
-## Examples of gatsby-ssr.js hooks:
+## Examples of gatsby-ssr.js hooks
 
 - onPreRenderHTML
 - onRenderBody
@@ -232,7 +231,7 @@ Gatsby is a static site that loads a dynamic application after initial load, whi
 
 Everything that occurs after your static site has loaded can be hooked in gatsby-browser.js. For apps that I’ve built, gatsby-browser.js was mostly used for keeping track of routes, scroll positioning, and sending analytics events.
 
-## Examples of gatsby-browser.js hooks:
+## Examples of gatsby-browser.js hooks
 
 - onClientEntry
 - onRouteUpdate

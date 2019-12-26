@@ -1,11 +1,11 @@
 ---
-title: Understanding the Gatsby lifecycle in depth
+title: Top 5 crushes de Alfonso
 date: 2017-04-28
 hero: /images/hero-2.jpg
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
-timeToRead: 4
+excerpt: Lo has adivinado, M.A vuelve a aparecer en la lista 2020
+timeToRead: 2
 authors:
-  - Dennis Brotzky
+  - Alfonso Reyes
 
 ---
 
@@ -97,7 +97,7 @@ One of the challenges I had when learning Gatsby was trying to understand the Ga
 
 In this article I’ll explain the how Gatsby’s lifecycle works and what the Gatsby specific files are for.
 
-## How does Gatsby work?
+## How does Gatsby work
 
 To understand what these files are for, we must first understand how Gatsby works. Gatsby is a static site generator that pulls data from sources you provide and generates a website/app for you.
 
@@ -144,7 +144,7 @@ For example, if you want to move some files manually, such as a Netlify \_redire
 
 From experience, most of my time has revolved around handling data and building pages in gatsby-node.js. This file quickly becomes the piping of your entire website.
 
-## Examples of gatsby-node.js hooks:
+## Examples of gatsby-node.js hooks
 
 - createPages
 - onCreateBabelConfig
@@ -156,7 +156,7 @@ When you think Server Side Rendering you think of a server that takes in request
 
 Naturally, gatsby-ssr.js allows developers to hook into that lifecycle. In my experience, most use cases revolve around injecting CSS, HTML, or Redux state information into the generated output. For example, if you need to insert third party scripts such as Analytics Tracking or a Pixel it can be done on the onRenderBody gatsby-ssr.js hook.
 
-## Examples of gatsby-ssr.js hooks:
+## Examples of gatsby-ssr.js hooks
 
 - onPreRenderHTML
 - onRenderBody
@@ -167,7 +167,7 @@ Gatsby is a static site that loads a dynamic application after initial load, whi
 
 Everything that occurs after your static site has loaded can be hooked in gatsby-browser.js. For apps that I’ve built, gatsby-browser.js was mostly used for keeping track of routes, scroll positioning, and sending analytics events.
 
-## Examples of gatsby-browser.js hooks:
+## Examples of gatsby-browser.js hooks
 
 - onClientEntry
 - onRouteUpdate

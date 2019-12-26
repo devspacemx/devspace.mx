@@ -1,5 +1,5 @@
 ---
 hero:
-  heading: Welcome to Novela, the simplest way to start publishing with Hugo.
-  maxWidthPX: 652
+  heading: Somos una comunidad de base tecnológica generadora de talento e ideas, fomentamos la participación de estudiantes en su entorno 💻 ✨
+  maxWidthPX: 700
 ---
