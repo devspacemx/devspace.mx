@@ -95,6 +95,9 @@
 
 .navbar {
   background: var(--background-color);
+  -webkit-transition: var(--color-mode-transition);
+  -o-transition: var(--color-mode-transition);
+  transition: var(--color-mode-transition);
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
