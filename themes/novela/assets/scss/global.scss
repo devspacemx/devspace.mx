@@ -21,13 +21,13 @@
 @import "article.scss";
 @import "authors.scss";
 @import "paginator.scss";
-
+@import "simple-grid.scss";
 
 /**
  * Thanks to Benjamin De Cock
  * https://gist.github.com/bendc/ac03faac0bf2aee25b49e5fd260a727d
  */
- :root {
+:root {
   --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
   --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
   --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -48,7 +48,7 @@
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
   font-size: inherit;
@@ -57,7 +57,7 @@
 :root {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -128,8 +128,8 @@ samp {
 fieldset,
 button {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border: none;
   outline: none;
   background: transparent;
@@ -163,31 +163,31 @@ img.Image__Zoom ~ div {
   background: transparent !important;
 }
 
-.Image__Small{
+.Image__Small {
   width: 100%;
   max-width: 680px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px;
-  img{
+  img {
     width: 100%;
   }
 }
 
-.Image__medium{
+.Image__medium {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px;
-  img{
+  img {
     width: 100%;
   }
 }
 
-.Image__large{
+.Image__large {
   width: 100%;
   margin-bottom: 35px;
-  img{
+  img {
     width: 100vw;
     position: relative;
     left: 50%;
@@ -197,30 +197,46 @@ img.Image__Zoom ~ div {
   }
 }
 
-.author-alc-section{
+.author-alc-section {
   padding-left: 0;
   padding-right: 0;
 }
 
-.icon-image{
-  path{
+.icon-image {
+  path {
     fill: var(--primary);
   }
 }
 
-img{
+img {
   -webkit-animation-name: image-load-in;
-          animation-name: image-load-in;
+  animation-name: image-load-in;
   -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-duration: 0.8s;
 }
 
 @-webkit-keyframes image-load-in {
-  0% {-webkit-filter: blur(8px);filter: blur(8px); opacity: 0;}
-  100% {-webkit-filter: blur(0);filter: blur(0); opacity: 1;}
+  0% {
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
 }
 
 @keyframes image-load-in {
-  0% {-webkit-filter: blur(8px);filter: blur(8px); opacity: 0;}
-  100% {-webkit-filter: blur(0);filter: blur(0); opacity: 1;}
+  0% {
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
 }

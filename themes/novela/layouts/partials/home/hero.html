@@ -1,7 +1,14 @@
 <section class="hero-bg">
-  <section class="section hero" relative id="Articles__Hero">
-    <div class="heading-container" style="max-width: {{ .Page.Params.hero.maxWidthPX }}px;">
-      <h1 class="hero-heading">{{ .Page.Params.hero.heading }}</h1>
+  <section class="hero" relative>
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <h1 class="hero-heading">{{ .Page.Params.hero.heading }}</h1>
+        </div>
+        <div class="col-4">
+          <img src="/images/flame-welcome.png" height="320" alt="">
+        </div>
+      </div>
     </div>
   </section>
 </section>

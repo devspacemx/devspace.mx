@@ -64,16 +64,26 @@
 }
 
 .hero {
-  height: calc(100vh - 70px);
+  height: calc(100vh);
+  padding-top: 70px;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  .container {
+    height: 60vh;
+  }
 }
 
 .hero-heading {
   font-style: normal;
-  font-weight: 600;
-  font-size: 38px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 800;
+  font-size: 40px;
   font-family: var(--sanserif);
   line-height: 1.15;
   color: var(--primary);
+  text-align: center !important;
   /*DESKTOP*/
   @media screen and (max-width: $desktop) {
     font-size: 38px;

@@ -1,5 +1,5 @@
-<section class="section">
-  <nav class="navbar">
+<nav class="navbar fixed-top">
+  <div class="nav-container">
     <a class="logo-link" href="/">
       {{ partial "icons/ui/logo.html" . }}
       <span class="header-hidden">Volver a la pag principal</span>
@@ -22,8 +22,8 @@
         <div id="moonMask" class="moon-mask"></div>
       </button>
     </div>
-  </nav>
-</section>
+  </div>
+</nav>
 
 {{ $script := resources.Get "js/toggleLogos.js" }}
 <script src="{{ $script.RelPermalink }}"></script>

@@ -98,29 +98,36 @@
   -webkit-transition: var(--color-mode-transition);
   -o-transition: var(--color-mode-transition);
   transition: var(--color-mode-transition);
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   align-items: center;
-}
-
-@media screen and (max-height: 800px) {
-  .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding: 0;
+  margin: 0 -5px;
+  height: 70px;
+  .nav-container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
   }
 }
 
-/*DESKTOP MEDIUM*/
-@media screen and (max-width: 1280px) {
-  .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .logo-link {
