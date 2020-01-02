@@ -1,6 +1,9 @@
-<section class="section nartrow">
+<section class="section narrow">
   <div id="articlesList" class="articles-list-container show-details">
+
+
     <div class="subheading-container">
+      {{ partial "bio.html" . }}
       <div class="grid-controls-container">
         <button id="btnGrid" class="grid-button">
           {{ partial "icons/ui/tiles.html" . }}
@@ -10,8 +13,7 @@
         </button>
       </div>
     </div>
-    {{ $script := resources.Get "js/toggleLayout.js" }}
-    <script src="{{ $script.RelPermalink }}"></script>
+
     {{ $posts := partialCached "func/GetArticles" . "articles" }}
     {{ $paginator := .Paginate $posts }}
     {{ $biggerFirst := true }}
@@ -58,3 +60,7 @@
   </div>
   {{ partial "paginator/paginator.html" . }}
 </section>
+
+
+{{ $script := resources.Get "js/toggleLayout.js" }}
+<script src="{{ $script.RelPermalink }}"></script>

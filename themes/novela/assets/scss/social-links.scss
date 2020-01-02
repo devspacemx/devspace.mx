@@ -62,14 +62,9 @@
 }
 
 .social-icon-image {
-  opacity: 0.8;
   path {
     fill: var(--grey);
   }
-}
-
-.social-icon-image:hover {
-  opacity: 1;
 }
 
 .hidden {

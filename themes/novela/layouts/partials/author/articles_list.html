@@ -1,4 +1,4 @@
-<section class="section nartrow author-alc-section">
+<section class="section narrow author-alc-section">
   <div id="articlesList" class="articles-list-container show-details author-alc">
     {{ $articles := .Pages }}
     {{ $paginator := .Paginate .Pages }}
@@ -20,8 +20,8 @@
               {{ .Params.excerpt }}
             </p>
             <div class="article-metadata">
-              {{ .Date.Format "January 2, 2006" }}{{ if .Params.timetoread }} • {{ .Params.timetoread }} minutos para
-              leer{{ end }}
+              {{ .Date.Format "January 2, 2006" }}{{ if .Params.timetoread }} • {{ .Params.timetoread }} min
+              read{{ end }}
             </div>
           </div>
         </div>

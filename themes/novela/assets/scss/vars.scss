@@ -21,12 +21,13 @@ body {
     color 0.25s var(--ease-in-out-quad);
 
   /*PRIMARY COLORS*/
-  --primary: #4d4d4d;
+  --primary: #222222;
   --secondary: #73737d;
   --grey: #73737d;
   --background-color: #fafafa;
   --accent: #6166dc;
   --hover: rgba(0, 0, 0, 0.07);
+  --gradient: linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #d9dbe0 100%);
   --articleText: #08080b;
   --track: rgba(8, 8, 11, 0.3);
   --progress: #000;
@@ -43,8 +44,13 @@ body {
   --dark-primary: #fff;
   --dark-secondary: #fff;
   --dark-accent: #e9daac;
-  --dark-background: #29292e;
+  --dark-background: #111216;
   --dark-hover: rgba(255, 255, 255, 0.07);
+  --dark-gradient: linear-gradient(
+    180deg,
+    #111216 0%,
+    rgba(66, 81, 98, 0.36) 100%
+  );
   --dark-articleText: #fff;
   --dark-track: rgba(255, 255, 255, 0.3);
   --dark-progress: #fff;

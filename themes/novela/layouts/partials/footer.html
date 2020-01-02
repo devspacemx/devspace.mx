@@ -1,8 +1,18 @@
+<div class="footer-gradient"></div>
 <div class="section narrow">
   <div class="footer-hr"></div>
   <div class="footer-container">
-    <div class="footer-text">
-      © {{ dateFormat "2006" now }} {{ .Site.Title }}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="/images/banner.png" height="40" alt="Logo DevSpace">
+          <h4 style="color: gray; margin-top: 15px; padding-bottom: 20px;">// comunidad de desarrollo</h4>
+          {{ partial "social-links/social-links.html" . }}
+        </div>
+        <div class="col-md-7">
+          <p>soon...</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

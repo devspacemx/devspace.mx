@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top">
+<section class="section">
   <div class="nav-container">
     <a class="logo-link" href="/">
       {{ partial "icons/ui/logo.html" . }}
@@ -23,8 +23,8 @@
       </button>
     </div>
   </div>
-</nav>
-
+  </nav>
+</section>
 {{ $script := resources.Get "js/toggleLogos.js" }}
 <script src="{{ $script.RelPermalink }}"></script>
 
