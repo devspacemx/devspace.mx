@@ -1,8 +1,7 @@
 ---
 title: Alfonso Reyes
 bio: |
-  Written by You. This is where your author bio lives. Share your work, your
-  joys and of course, your Twitter handle.
+  Desde los 5 años me ha gustado tontear con las computadoras, hoy estudio Ing. en Sistemas y dedico parte de mi tiempo libre a ayudar a crecer la comunidad de DevSpace
 avatar: /images/alfonso-reyes.jpg
 social:
   - title: github
