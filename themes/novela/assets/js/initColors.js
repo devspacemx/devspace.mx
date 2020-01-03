@@ -21,10 +21,6 @@ function makeDark() {
   be.style.setProperty("--background-color", "#111216");
   be.style.setProperty("--accent", "#E9DAAC");
   be.style.setProperty("--hover", "rgba(255, 255, 255, 0.07)");
-  be.style.setProperty(
-    "--gradient",
-    "linear-gradient(180deg, #111216 0%, rgba(66, 81, 98, 0.36) 100%)"
-  );
   be.style.setProperty("--articleText", "#fff");
   be.style.setProperty("--track", "rgba(255, 255, 255, 0.3)");
   be.style.setProperty("--progress", "#fff");
@@ -44,7 +40,6 @@ function makeLight() {
   be.style.setProperty("--background-color", "");
   be.style.setProperty("--accent", "");
   be.style.setProperty("--hover", "");
-  be.style.setProperty("--gradient", "");
   be.style.setProperty("--articleText", "");
   be.style.setProperty("--track", "");
   be.style.setProperty("--progress", "");

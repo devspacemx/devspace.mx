@@ -69,10 +69,6 @@ function makeDark() {
   bodyElement.style.setProperty("--background-color", "#111216");
   bodyElement.style.setProperty("--accent", "#E9DAAC");
   bodyElement.style.setProperty("--hover", "rgba(255, 255, 255, 0.07)");
-  bodyElement.style.setProperty(
-    "--gradient",
-    "linear-gradient(180deg, #111216 0%, rgba(66, 81, 98, 0.36) 100%)"
-  );
   bodyElement.style.setProperty("--articleText", "#fff");
   bodyElement.style.setProperty("--track", "rgba(255, 255, 255, 0.3)");
   bodyElement.style.setProperty("--progress", "#fff");
@@ -98,7 +94,6 @@ function makeLight() {
   bodyElement.style.setProperty("--background-color", "");
   bodyElement.style.setProperty("--accent", "");
   bodyElement.style.setProperty("--hover", "");
-  bodyElement.style.setProperty("--gradient", "");
   bodyElement.style.setProperty("--articleText", "");
   bodyElement.style.setProperty("--track", "");
   bodyElement.style.setProperty("--progress", "");
