@@ -4,10 +4,19 @@ a {
   transition: var(--color-mode-transition);
   color: var(--accent);
   text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a,
+a:visited {
+  .btn {
+    color: #fff;
+  }
 }
 
 a:visited {
-  color: var(--accent);
+  //  color: var(--accent);
   opacity: 0.85;
 }
 

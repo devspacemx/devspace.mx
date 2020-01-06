@@ -28,7 +28,7 @@ of the whole section and append them to our $next slice. */}}
 {{ $next = $next | append (first $diff $articles) }}
 {{ end }}
 <section id="articleNext" class="section narrow">
-  <h3 class="footer-next-heading">More articles from {{ .Site.Title }}</h3>
+  <h3 class="footer-next-heading">Más articulos de {{ .Site.Title }}</h3>
   <div class="footer-spacer"></div>
   <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
     <div class="post-row">
@@ -47,7 +47,7 @@ of the whole section and append them to our $next slice. */}}
             </p>
             <div class="article-metadata">
               {{ $article.Date | dateFormat "January 1, 2006" }}{{ with $article.Params.timeToRead }} ·
-              {{ $article.Params.timeToRead }} min read{{ end }}
+              {{ $article.Params.timeToRead }} minutos para leer{{ end }}
             </div>
           </div>
         </div>

@@ -1,5 +1,7 @@
 @import "vars.scss";
+@import "about.scss";
 @import "anchor.scss";
+@import "button.scss";
 @import "bio.scss";
 @import "blockquote.scss";
 @import "headings.scss";
@@ -22,7 +24,6 @@
 @import "authors.scss";
 @import "paginator.scss";
 @import "colors.scss";
-@import "about.scss";
 
 /**
  * Thanks to Benjamin De Cock
@@ -240,28 +241,6 @@ img {
     filter: blur(0);
     opacity: 1;
   }
-}
-
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 1px solid transparent;
-  border-bottom-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .vertical-align {

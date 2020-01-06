@@ -5,13 +5,9 @@ bio: |
 avatar: /images/alfonso-reyes.jpg
 social:
   - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
-  - title: github
-    url: https://github.com
+    url: https://github.com/MxARC/
+  - title: twitter
+    url: https://twitter.com/MxARC/
+  - title: instagram
+    url: https://instagram.com/mrarc_
 ---
