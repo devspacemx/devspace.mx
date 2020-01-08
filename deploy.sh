@@ -10,7 +10,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 
 # Add changes to git.
-git add .
+cd public && git add --all
 
 # Commit changes.
 msg="rebuilding site $(date)"
@@ -20,4 +20,4 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin hugo
+git push origin gh-pages
