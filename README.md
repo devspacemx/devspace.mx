@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/4296205/71327446-ccb82980-24c5-11ea-8956-284860bfee1b.png" width="500" title="Logo DevSpace">
+<img src="https://user-images.githubusercontent.com/4296205/71327446-ccb82980-24c5-11ea-8956-284860bfee1b.png" width="500" title="Logo DevSpace" alt="Logo">
 </p>
 
 [![license](https://img.shields.io/badge/license-MIT-red)](LICENSE.md)
