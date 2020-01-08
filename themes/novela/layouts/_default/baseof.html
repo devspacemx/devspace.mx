@@ -1,26 +1,26 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<!-- Page head -->
 {{ partial "head/head.html" . }}
 
 <body class="line-numbers">
+  {{ $script := resources.Get "js/initColors.js" }}
+  <script src="{{ $script.RelPermalink }}"></script>
+  <div class="layout-styled">
+    <!-- Include header or navigation bar-->
+    {{ partial "header.html" . }}
 
-    {{ $script := resources.Get "js/initColors.js" }}
-    <script src="{{ $script.RelPermalink }}"></script>
+    {{ block "main" . }}
+    <!-- Page content that will differ between templates -->
+    {{ end }}
 
-    <div class="layout-styled">
+    <!-- Include footer -->
+    {{ partial "footer.html" . }}
 
-        {{ partial "header.html" . }}
+  </div>
 
-        {{ block "main" . }}
-        
-        {{ end }}
-        
-        {{ partial "footer.html" . }}
-
-    </div>
-
-    {{ $script := resources.Get "js/prism.js" }}
-    <script src="{{ $script.RelPermalink }}"></script>
+  {{ $script := resources.Get "js/prism.js" }}
+  <script src="{{ $script.RelPermalink }}"></script>
 </body>
 
 </html>

@@ -16,7 +16,7 @@
 }
 
 /*TABLET*/
-@media screen and (max-width: 735px) {
+@media screen and (max-width: $tablet) {
   .footer-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -40,7 +40,7 @@
 }
 
 /*TABLET*/
-@media screen and (max-width: 735px) {
+@media screen and (max-width: $tablet) {
   .footer-hr {
     margin: 60px auto;
   }
@@ -274,7 +274,7 @@
 }
 
 /*TABLET*/
-@media screen and (max-width: 735px) {
+@media screen and (max-width: $tablet) {
   .icon-wrapper {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -614,7 +614,7 @@
 }
 
 /*TABLET*/
-@media screen and (max-width: 735px) {
+@media screen and (max-width: $tablet) {
   .frame {
     left: -15px;
   }

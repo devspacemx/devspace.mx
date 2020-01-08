@@ -55,7 +55,7 @@
 }
 
 /*TABLET*/
-@media screen and (max-width: 735px) {
+@media screen and (max-width: $tablet) {
   .social-icon-container {
     margin: 0 2.2rem;
   }

@@ -9,11 +9,12 @@
           {{ with .Page.Params.timetoread }} • {{ . }} minutos para leer{{ end }}
         </div>
       </div>
+      {{ with .Page.Params.hero }}
+      <div class="article-hero-image">
+        <img src="{{ . }}">
+      </div>
+      {{ end }}
     </header>
-    {{ with .Page.Params.hero }}
-    <div class="article-hero-image" id="ArticleImage__Hero">
-      <img src="{{ . }}">
-    </div>
-    {{ end }}
+
   </div>
 </section>

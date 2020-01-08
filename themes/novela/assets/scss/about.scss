@@ -1,5 +1,8 @@
 .about-container {
   margin-left: 5rem;
+  @media screen and (max-width: $phablet) {
+    margin-left: 0rem;
+  }
 }
 
 .about-title {

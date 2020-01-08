@@ -8,13 +8,22 @@ p {
   transition: var(--color-mode-transition);
   margin: 0 auto 35px;
   width: 100%;
+  max-width: 680px;
 }
 
 p b {
   font-weight: 800;
 }
+
+/*DESKTOP*/
+@media screen and (max-width: 1070px) {
+  p {
+    max-width: 507px;
+  }
+}
+
 /*TABLET*/
-@media screen and (max-width: 735px) {
+@media screen and (max-width: $tablet) {
   p {
     max-width: 486px;
     margin: 0 auto 25px;

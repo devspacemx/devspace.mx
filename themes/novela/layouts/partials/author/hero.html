@@ -8,7 +8,15 @@
     <h1 class="author-heading">{{ .Title }}</h1>
     <p class="author-subheading">{{ .Params.bio }}</p>
     <div class="author-social">
-      {{ partial "author/social_links.html" . }}
+      <div class="social-icon-outer authors-sio">
+        <div class="social-icon-container">
+          {{ range $component := .Params.social }}
+          {{ $path := print "icons/social/" .title }}
+          <a target="_blank" href="{{ .url }}">{{ partial $path $ }}</a>
+          <span class="hidden">{{ .url }}</span>
+          {{ end }}
+        </div>
+      </div>
     </div>
   </div>
 </section>
