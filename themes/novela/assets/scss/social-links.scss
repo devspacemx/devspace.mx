@@ -1,10 +1,6 @@
 .social-icon-outer {
   width: 20%;
   min-width: 220px;
-  // hide on tablets
-  @media screen and (max-width: $tablet) {
-    display: none !important;
-  }
 }
 
 /*TABLET*/
@@ -64,6 +60,12 @@
 .social-icon-image {
   path {
     fill: var(--grey);
+  }
+}
+
+.social-icon-image:hover {
+  path {
+    fill: #0087cc;
   }
 }
 

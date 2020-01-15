@@ -16,14 +16,13 @@
   <!-- CSS Themes -->
   {{ $bootstrap := resources.Get "css/bootstrap.min.css" }}
   <link rel="stylesheet" href="{{ $bootstrap.RelPermalink }}" />
-  {{ $themify := resources.Get "css/themify-icons.css" }}
-  <link rel="stylesheet" href="{{ $themify.RelPermalink }}" />
   {{ $style := resources.Get "scss/global.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   {{ $prism := resources.Get "css/prism.css" }}
   <link rel="stylesheet" href="{{ $prism.RelPermalink }}" />
   <!-- Custom fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1915f212e2.js" crossorigin="anonymous"></script>
   <!-- Print SEO Tags -->
   {{ partial "seo/print.html" . }}
   {{ with .Params.forestry_instant_preview_id }}

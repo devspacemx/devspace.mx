@@ -11,18 +11,18 @@ let isList = false;
 function adjustListAtMobile() {
   if (listRemoveWidth.matches) {
     document
-      .getElementById("articlesList")
+      .getElementById("articles-list")
       .classList.remove("articles-list-container-alt");
   } else if (listAddWidth.matches && isList === true) {
     document
-      .getElementById("articlesList")
+      .getElementById("articles-list")
       .classList.add("articles-list-container-alt");
   }
 }
 
 function makeGrid() {
   document
-    .getElementById("articlesList")
+    .getElementById("articles-list")
     .classList.remove("articles-list-container-alt");
   document.getElementById("tiles").style.fill = "var(--primary)";
   document.getElementById("rows").style.fill = "var(--grey)";
@@ -31,7 +31,7 @@ function makeGrid() {
 
 function makeRows() {
   document
-    .getElementById("articlesList")
+    .getElementById("articles-list")
     .classList.add("articles-list-container-alt");
   document.getElementById("rows").style.fill = "var(--primary)";
   document.getElementById("tiles").style.fill = "var(--grey)";

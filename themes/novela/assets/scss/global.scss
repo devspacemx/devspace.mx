@@ -36,6 +36,18 @@
   --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
 }
 
+// Selector color
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: #008080;
+}
+
+::selection {
+  color: #fff;
+  background: #008080;
+}
+
 @font-face {
   font-family: "-apple-system", "BlinkMacSystemFont", "San Francisco",
     "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI",

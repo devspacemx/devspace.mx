@@ -5,7 +5,7 @@
       <span class="header-hidden">Volver a la pag principal</span>
     </a>
     <div class="nav-controls">
-      {{ partial "social-links/social-links.html" . }}
+      <span class="hide-on-mobile"> {{ partial "social-links/social-links.html" . }} </span>
       <button id="copyButton" aria-label="Copiar enlace a la web" class="icon-wrapper">
         {{ partial "icons/ui/link.html" . }}
         <div id="toolTip" class="tool-tip ">
