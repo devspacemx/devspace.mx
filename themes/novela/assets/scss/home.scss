@@ -15,7 +15,6 @@
 }
 .about-subtitle {
   color: var(--grey);
-  padding: 10 3px 5px;
   display: inline-block;
 }
 
@@ -88,16 +87,8 @@
 
 .join-content {
   margin-top: 5rem;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#155592),
-    to(#1c7ed6)
-  );
+  background: #0067f4 -webkit-gradient(linear, left top, left bottom, from(#155592), to(#1c7ed6));
   background: linear-gradient(#155592, #1c7ed6);
-  position: relative;
-  z-index: 2;
   color: #fff;
   text-align: center;
   p {
@@ -106,7 +97,6 @@
   .title {
     margin-bottom: 15px;
     padding-top: 50px;
-    position: relative;
     h6,
     h2 {
       color: #fff;
