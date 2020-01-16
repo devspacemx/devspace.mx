@@ -1,13 +1,15 @@
 <section id="articles" class="section articles">
-  <h2>📰 Últimos articulos</h2>
+  <span>
+    <h2>📰 Últimos articulos</h2>
+    ¿Quieres escribir algo? contacta a hola@devspace.mx
+  </span>
   <div id="articlesList" class="articles-list-container show-details">
     <div class="subheading-container">
-      {{ partial "bio.html" . }}
       <div class="grid-controls-container">
-        <button id="btnGrid" aria-hidden="true" class="grid-button">
+        <button id="btnGrid" aria-label="Activar cuadriculas noticias" aria-hidden="true" class="grid-button">
           {{ partial "icons/ui/tiles.html" . }}
         </button>
-        <button id="btnRows" aria-hidden="true" class="grid-button">
+        <button id="btnRows" aria-label="Activar filas noticias" aria-hidden="true" class="grid-button">
           {{ partial "icons/ui/rows.html" . }}
         </button>
       </div>
@@ -31,9 +33,9 @@
             <img src="{{ $article.Params.hero }}" class="article-image" alt="Portada del artículo" />
           </div>
           <div class="article-data">
-            <h2 class="article-title">
+            <h3 class="article-title">
               {{ $article.Params.title }}
-            </h2>
+            </h3>
             <p class="article-excerpt">
               {{ $article.Params.excerpt }}
             </p>

@@ -63,9 +63,10 @@ function toggleColors() {
 }
 
 function makeDark() {
+  bodyElement.style.setProperty("color", "#fff");
   bodyElement.style.setProperty("--primary", "#fff");
   bodyElement.style.setProperty("--secondary", "#fff");
-  bodyElement.style.setProperty("--grey", "#73737D");
+  bodyElement.style.setProperty("--grey", "#8b8b97");
   bodyElement.style.setProperty("--background-color", "#111216");
   bodyElement.style.setProperty("--accent", "#E9DAAC");
   bodyElement.style.setProperty("--hover", "rgba(255, 255, 255, 0.07)");

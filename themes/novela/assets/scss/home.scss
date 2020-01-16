@@ -1,0 +1,136 @@
+.about-container {
+  margin-left: 5rem;
+  @media screen and (max-width: $tablet) {
+    margin-left: 0rem;
+  }
+}
+
+.about-title {
+  font-size: 55px;
+  font-weight: 600 !important;
+  line-height: 55px !important;
+  background: -webkit-linear-gradient(#0067f4, #00a2df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-subtitle {
+  color: var(--grey);
+  display: inline-block;
+}
+
+.about-text {
+  margin-left: 0;
+}
+
+.about-btn {
+  background-color: #00a2df;
+  border-bottom: 3px solid #0087cc;
+  box-shadow: inset 0 2px 0px rgba(255, 255, 255, 0.2),
+    0 2px 4px rgba(71, 55, 55, 0.4);
+  color: #fff;
+  font-weight: bold;
+  text-align: center !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+  background-color: #007cb9;
+  box-shadow: inset 0 2px 0px rgba(255, 255, 255, 0), 0 2px 2px rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+.info-panel {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  .icon {
+    font-size: 48px;
+    color: #0067f4;
+    margin-right: 40px;
+    ::before {
+      background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#0067f4),
+        to(#00a2df)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: initial; /* reset Font Awesome's display:inline-block */
+    }
+  }
+  .text {
+    .title {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .text {
+      font-size: 16px;
+      padding: 0;
+      margin: 0 0 10px;
+    }
+  }
+}
+
+.articles-paginator {
+  margin-top: 95px;
+}
+
+.articles {
+  margin-top: 5rem;
+}
+
+.join-content {
+  margin-top: 5rem;
+  background: #0067f4 -webkit-gradient(linear, left top, left bottom, from(#155592), to(#1c7ed6));
+  background: linear-gradient(#155592, #1c7ed6);
+  color: #fff;
+  text-align: center;
+  p {
+    color: #fff;
+  }
+  .title {
+    margin-bottom: 15px;
+    padding-top: 50px;
+    h6,
+    h2 {
+      color: #fff;
+      margin-top: 0;
+    }
+  }
+
+  .join-btn {
+    display: inline-block;
+    padding: 0.7em 1.7em;
+    margin-bottom: 5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    transition: all 0.2s;
+    .icon {
+      font-size: 20px;
+      margin-right: 5px;
+    }
+    @media all and (max-width: 30em) {
+        display: block;
+        margin: 0.4em auto;
+    }
+  }
+  .join-btn:hover {
+    box-shadow: inset 0 0.6em 2em -0.3em rgba(0, 0, 0, 0.15),
+      inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+    border-color: #bbbbbb;
+  }
+}

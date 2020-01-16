@@ -1,10 +1,6 @@
 .social-icon-outer {
   width: 20%;
   min-width: 220px;
-  // hide on tablets
-  @media screen and (max-width: $tablet) {
-    display: none !important;
-  }
 }
 
 /*TABLET*/
@@ -30,10 +26,6 @@
   margin-left: 3.2rem;
   text-decoration: none;
   max-width: 16px;
-
-  a {
-    margin-right: 25px;
-  }
 }
 
 .social-icon-container:hover > svg {
@@ -47,11 +39,11 @@
 }
 
 .social-icon-container:first-of-type {
-  margin-left: 0;
+  margin-left: auto;
 }
 
 .social-icon-container:last-child {
-  margin-right: 0;
+  margin-right: auto;
 }
 
 /*TABLET*/
@@ -64,6 +56,12 @@
 .social-icon-image {
   path {
     fill: var(--grey);
+  }
+}
+
+.social-icon-image:hover {
+  path {
+    fill: #0087cc;
   }
 }
 

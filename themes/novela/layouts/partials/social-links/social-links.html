@@ -3,7 +3,7 @@
     {{ range $index, $component := .Site.Social }}
     {{ with $component }}
     {{ $path := print "icons/social/" $index }}
-    <a target="_blank" rel="noreferrer" href="{{ . }}">{{ partial $path $ }}</a>
+    <a target="_blank" aria-label="Página en {{ $index }}" rel="noreferrer" href="{{ . }}">{{ partial $path $ }}</a>
     <span class="hidden">{{ $component }}</span>
     {{ end }}
     {{ end }}
