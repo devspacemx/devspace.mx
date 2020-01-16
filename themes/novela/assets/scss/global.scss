@@ -1,5 +1,4 @@
 @import "vars.scss";
-@import "about.scss";
 @import "anchor.scss";
 @import "button.scss";
 @import "blockquote.scss";
@@ -16,7 +15,7 @@
 @import "tables.scss";
 @import "section.scss";
 @import "articles.scss";
-@import "home-articles.scss";
+@import "home.scss";
 @import "code.scss";
 @import "article.scss";
 @import "authors.scss";
@@ -34,18 +33,6 @@
   --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
   --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
-}
-
-// Selector color
-::-moz-selection {
-  /* Code for Firefox */
-  color: #fff;
-  background: #008080;
-}
-
-::selection {
-  color: #fff;
-  background: #008080;
 }
 
 @font-face {
@@ -268,4 +255,24 @@ img {
   @media screen and (max-width: $phablet) {
     display: none;
   }
+}
+
+.grow-animation {
+  max-width: 100%;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.grow-animation:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

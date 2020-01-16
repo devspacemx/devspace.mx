@@ -24,7 +24,7 @@ hugo
 
 echo "Updating gh-pages branch"
 cp ./CNAME public 
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+cd public && git add --all && git commit -m ":rocket: Publishing to gh-pages (publish.sh)"
 
 echo "Do you wish to push changes to remote?"
 select yn in "Yes" "No"; do

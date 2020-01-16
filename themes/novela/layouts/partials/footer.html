@@ -1,15 +1,23 @@
-<div class="section narrow">
+<div class="container">
   <div class="footer-hr"></div>
   <div class="footer-container">
-    <div class="section">
-      <div class="row">
-        <div class="col-md-5">
-          <img src="/images/banner.png" height="40" alt="Logo DevSpace">
-          <h4 style="color: gray; margin-top: 15px; padding-bottom: 20px;">// comunidad de desarrollo</h4>
-          {{ partial "social-links/social-links.html" . }}
-        </div>
-        <div class="col-md-7">
-          <p>soon...</p>
+    <div class="row">
+      <div class="col-md-12 center">
+        <img src="/images/banner.png" height="40" alt="Logo DevSpace">
+        <p style="color: gray; margin-top: 15px;">// comunidad de desarrollo</p>
+        <h5>📧 contacto</h5>
+        <p>
+          Si tienes ganas de colaborar con nuestra comunidad, manda por favor un correo a hola@devspace.mx
+        </p>
+        <div class="social-icon-container">
+          {{ range $index, $component := .Site.Social }}
+          {{ with $component }}
+          {{ $path := print "icons/social/" $index }}
+          <a target="_blank" rel="noreferrer" aria-label="Página en {{ $index }}"
+            href="{{ . }}">{{ partial $path $ }}</a>
+          <span class="hidden">{{ $component }}</span>
+          {{ end }}
+          {{ end }}
         </div>
       </div>
     </div>

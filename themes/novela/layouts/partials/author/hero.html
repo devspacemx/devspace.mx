@@ -12,7 +12,8 @@
         <div class="social-icon-container">
           {{ range $component := .Params.social }}
           {{ $path := print "icons/social/" .title }}
-          <a target="_blank" rel="noreferrer" href="{{ .url }}">{{ partial $path $ }}</a>
+          <a target="_blank" rel="noreferrer" aria-label="Página en {{ .title }}"
+            href="{{ .url }}">{{ partial $path $ }}</a>
           <span class="hidden">{{ .url }}</span>
           {{ end }}
         </div>

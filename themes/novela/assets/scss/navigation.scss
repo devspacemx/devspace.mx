@@ -1,18 +1,12 @@
 /************************FOOTER************************/
 
 .footer-container {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
   color: var(--grey);
+  .social-icon-container {
+    max-width: 300px;
+    min-width: auto;
+  }
 }
 
 /*TABLET*/
@@ -36,6 +30,7 @@
 .footer-hr {
   position: relative;
   margin: 140px auto 50px;
+  margin-top: 10px;
   border-bottom: 1px solid var(--horizontalRule);
 }
 
