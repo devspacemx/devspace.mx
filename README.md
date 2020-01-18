@@ -66,6 +66,8 @@ Si deseas colaborar con el proyecto es necesario que cumplas con unos cuantos re
 
     El comando "hugo server" va a levantar un servidor live reload para que puedas ver los cambios hechos en tiempo real a tu código
 
+Una vez te sientas cómodo con los cambios que haz realizado, crea un Pull Request describiendo los cambios que realizaste, si dichos cambios son apropiados y además no rompen la página entonces aceptaremos tu Pull Request y se hará merge con la rama master del proyecto.
+
 ## Contribuye
 
 ¿Cómo puedo contribuir a la página web?
