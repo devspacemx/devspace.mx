@@ -63,6 +63,13 @@
       -webkit-text-fill-color: transparent;
       display: initial; /* reset Font Awesome's display:inline-block */
     }
+    i {
+      overflow: hidden;
+      transition: 0.3s ease;
+    }
+    i:hover {
+      transform: rotate(-20deg) scale(1.5);
+    }
   }
   .text {
     .title {
