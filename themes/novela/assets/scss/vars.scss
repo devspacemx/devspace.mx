@@ -21,39 +21,61 @@ body {
     color 0.25s var(--ease-in-out-quad);
 
   /*PRIMARY COLORS*/
-  --primary: #222222;
-  --secondary: #73737d;
-  --grey: #44444b;
-  --background-color: #fafafa;
-  --accent: #6166dc;
-  --hover: rgba(0, 0, 0, 0.07);
-  --articleText: #08080b;
-  --track: rgba(8, 8, 11, 0.3);
-  --progress: #000;
-  --card: #fff;
+  color: #fff;
+  --primary: #fff;
+  --secondary: #fff;
+  --grey: #8b8b97;
+  --background-color: #111216;
+  --accent: #e9daac;
+  --hover: rgbrgba(255, 255, 255, 0.07);
+  --articleText: #fff;
+  --track: rgba(255, 255, 255, 0.3);
+  --progress: #fff;
+  --card: #1d2128;
   --error: #ee565b;
   --success: #46b17b;
   --errorBackground: rgba(238, 86, 91, 0.1);
-  --horizontalRule: rgba(8, 8, 11, 0.15);
-  --inputBackground: rgba(0, 0, 0, 0.05);
-  --tooltip: lightgrey;
+  --horizontalRule: rgba(255, 255, 255, 0.15);
+  --inputBackground: rgba(255, 255, 255, 0.07);
+  --tooltip: #000;
 
-  /*DARK COLORS*/
-  --dark-grey: #8b8b97;
-  --dark-primary: #fff;
-  --dark-secondary: #fff;
-  --dark-accent: #e9daac;
-  --dark-background: #111216;
-  --dark-hover: rgba(255, 255, 255, 0.07);
-  --dark-articleText: #fff;
-  --dark-track: rgba(255, 255, 255, 0.3);
-  --dark-progress: #fff;
-  --dark-card: #1d2128;
-  --dark-error: #ee565b;
-  --dark-success: #46b17b;
-  --dark-errorBackground: rgba(238, 86, 91, 0.1);
-  --dark-horizontalRule: rgba(255, 255, 255, 0.15);
-  --dark-inputBackground: rgba(255, 255, 255, 0.07);
+  /**
+    --primary: #222222;
+    --secondary: #73737d;
+    --grey: #44444b;
+    --background-color: #fafafa;
+    --accent: #6166dc;
+    --hover: rgba(0, 0, 0, 0.07);
+    --articleText: #08080b;
+    --track: rgba(8, 8, 11, 0.3);
+    --progress: #000;
+    --card: #fff;
+    --error: #ee565b;
+    --success: #46b17b;
+    --errorBackground: rgba(238, 86, 91, 0.1);
+    --horizontalRule: rgba(8, 8, 11, 0.15);
+    --inputBackground: rgba(0, 0, 0, 0.05);
+    --tooltip: lightgrey;
+*/
+  /**
+    be.style.setProperty("color", "#fff");
+  be.style.setProperty("--primary", "#fff");
+  be.style.setProperty("--secondary", "#fff");
+  be.style.setProperty("--grey", "#8b8b97");
+  be.style.setProperty("--background-color", "#111216");
+  be.style.setProperty("--accent", "#E9DAAC");
+  be.style.setProperty("--hover", "rgba(255, 255, 255, 0.07)");
+  be.style.setProperty("--articleText", "#fff");
+  be.style.setProperty("--track", "rgba(255, 255, 255, 0.3)");
+  be.style.setProperty("--progress", "#fff");
+  be.style.setProperty("--card", "#1D2128");
+  be.style.setProperty("--error", "#EE565B");
+  be.style.setProperty("--success", "#46B17B");
+  be.style.setProperty("--errorBackground", "rgba(238, 86, 91, 0.1)");
+  be.style.setProperty("--horizontalRule", "rgba(255, 255, 255, 0.15)");
+  be.style.setProperty("--inputBackground", "rgba(255, 255, 255, 0.07)");
+  be.style.setProperty("--tooltip", "#000");
+  */
 
   /*PRISM*/
   --token: #fff;

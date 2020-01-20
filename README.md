@@ -50,7 +50,7 @@ Si deseas colaborar con el proyecto es necesario que cumplas con unos cuantos re
 1. **Clonar el repositorio**
 
    ```bash
-   git clone https://github.com/DevSpaceMX/devspace.mx.git
+   git clone https://github.com/devspacemx/devspace.mx.git
    cd devspace.mx
    ```
 
