@@ -24,7 +24,4 @@
   <script src="https://kit.fontawesome.com/1915f212e2.js" crossorigin="anonymous"></script>
   <!-- Print SEO Tags -->
   {{ partial "seo/print.html" . }}
-  {{ with .Params.forestry_instant_preview_id }}
-  {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
-  {{ end -}}
 </head>

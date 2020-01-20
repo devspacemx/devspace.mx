@@ -101,24 +101,15 @@ square of 800x800 */}}
 {{/* Image
 	---------------------------- */}}
 
-{{- $img := "/images/preview.jpg" -}}
-{{- with .Site.Params.seo.default_image -}}
-{{- $img = . -}}
+{{ $img := "" }}
+{{/* 1. SEO Description */}}
+{{- if .Params.seo.image -}}
+{{- $img = .Params.seo.image -}}
+{{- else if .Params.avatar -}}
+{{- $img = .Params.avatar -}}
+{{- else -}}
+{{ $img = .Site.Params.default_image }}
 {{- end -}}
-
-{{- with .Params.seo.image -}}
-{{- $img = . -}}
-{{ else }}
-{{/* If no SEO IMAGE is set, we look for the .Params.images slice
-		and use the first one if it has an `image` key */}}
-{{- with .Params.hero -}}
-{{- $img = . -}}
-{{- end -}}
-{{- with .Params.avatar -}}
-{{- $img = . -}}
-{{- end -}}
-{{- end -}}
-
 
 {{- $.Scratch.SetInMap "seo" "image" ($img | absURL) -}}
 
