@@ -5,22 +5,14 @@
   padding: 0 4rem;
 
   /*DESKTOP*/
-  @media screen and (max-width: 1070px) {
+  @media screen and (max-width: $desktop) {
     max-width: 850px;
   }
 
   /*PHABLET*/
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: $phablet) {
     max-width: 100%;
     padding: 2rem;
-  }
-
-  p {
-    /*TABLET*/
-    @media screen and (max-width: $tablet) {
-      padding: 0 4rem;
-      max-width: 567px;
-    }
   }
 }
 

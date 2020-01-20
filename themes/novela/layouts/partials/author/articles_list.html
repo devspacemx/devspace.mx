@@ -6,7 +6,7 @@
       {{ $scratch := newScratch }}
       {{ $scratch.Set "numPages" (len $paginator.Pages) }}
       {{ range $index, $article := $paginator.Pages }}
-      {{ $counter := mod $index 2 }}
+      {{ $counter := mod $index 4 }}
       <a href="{{ .RelPermalink }}" class="article-link">
         <div class="article-data-outer">
           <div class="image-container">
@@ -20,8 +20,8 @@
               {{ .Params.excerpt }}
             </p>
             <div class="article-metadata">
-              {{ .Date.Format "January 2, 2006" }}{{ if .Params.timetoread }} • {{ .Params.timetoread }} min
-              read{{ end }}
+              {{ .Date.Format "January 2, 2006" }}{{ if .Params.timetoread }} • {{ .Params.timetoread }} minutos para
+              leer{{ end }}
             </div>
           </div>
         </div>

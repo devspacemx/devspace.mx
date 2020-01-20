@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="section narrow">
+<section class="section">
 
   {{ partial "article/hero.html" . }}
 
@@ -10,7 +10,7 @@
     {{ .Content }}
   </article>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <!-- Comentarios-->
       <div class="col-md-8 col-md-offset-2">
@@ -34,12 +34,8 @@
       </div>
       <!-- / Comentarios -->
     </div>
-    <div class="col-md-8 col-md-offset-1">
-      {{ partial "article/next.html" . }}
-
-    </div>
   </div>
-
+  {{ partial "article/next.html" . }}
 </section>
 
 {{ $script := resources.Get "js/progressBar.js" }}

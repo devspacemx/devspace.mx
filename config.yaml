@@ -2,7 +2,7 @@ baseURL: "https://devspace.mx"
 languageCode: "es-MX"
 title: "DevSpace"
 theme: "novela"
-paginate: 2
+paginate: 8
 social:
   github: "https://github.com/DevSpaceMX"
   twitter: "https://twitter.com/DevSpaceMX"
@@ -10,3 +10,4 @@ social:
   facebook: "https://facebook.com/DevSpaceMexico"
 taxonomies:
   author: authors
+enableEmoji: true

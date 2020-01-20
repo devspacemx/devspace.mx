@@ -23,7 +23,7 @@
 {{ with site.GetPage (printf "/%s/%s" "authors" ($name | urlize)) }}
 {{ $firstname := "" }}
 {{ $name := "" }}
-{{ $avatar := false }}
+{{ $avatar := true }}
 {{ with .Title }}
 {{ $name = . }}
 {{ $firstname = index (split . " ") 0 }}

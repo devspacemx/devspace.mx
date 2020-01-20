@@ -1,7 +1,7 @@
 <section id="articles" class="section articles">
   <span>
-    <h2>📰 Últimos articulos</h2>
-    ¿Quieres escribir algo? contacta a hola@devspace.mx
+    <h2>📰 Últimos artículos</h2>
+    <p style="margin-bottom: 5px;">¿Quieres escribir algo? contacta a hola@devspace.mx</p>
   </span>
   <div id="articlesList" class="articles-list-container show-details">
     <div class="subheading-container">
@@ -16,7 +16,7 @@
     </div>
 
     {{ $posts := partialCached "func/GetArticles" . "articles" }}
-    {{ $paginator := .Paginate $posts }}
+    {{ $paginator := .Paginate $posts 4}}
     {{ $biggerFirst := true }}
     {{ $biggerPlaced := false }}
     {{ range $index, $article := $paginator.Pages }}
