@@ -11,3 +11,5 @@ social:
 taxonomies:
   author: authors
 enableEmoji: true
+languageCode: "es-MX"
+defaultContentLanguage: "es"
