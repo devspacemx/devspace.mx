@@ -13,3 +13,8 @@ taxonomies:
 enableEmoji: true
 languageCode: "es-MX"
 defaultContentLanguage: "es"
+params:
+  author: DevSpace
+  description: "Somos una comunidad de estudiantes que busca desarrollarse de manera profesional y potencializar nuestras soft-skills y hard-skills mediante el aprendizaje colectivo y meetups.
+  No solo somos programadores, también invitamos a personas de otros perfiles interesados en el ámbito de tecnológia y emprendimiento. Todos son aceptados siempre y cuando compartan nuestros ideales y valores como comunidad.
+  ¡Animate a formar parte de nosotros!"

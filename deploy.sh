@@ -26,10 +26,4 @@ echo "Updating gh-pages branch"
 cp ./CNAME public 
 cd public && git add --all && git commit -m ":rocket: Publishing to gh-pages (publish.sh)"
 
-echo "Do you wish to push changes to remote?"
-select yn in "Yes" "No"; do
-    case $yn in
-        Yes ) git push origin gh-pages; break;;
-        No ) exit;;
-    esac
-done
+git push origin gh-pages
