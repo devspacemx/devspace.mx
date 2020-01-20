@@ -15,7 +15,7 @@ function initColors() {
 }
 
 function makeDark() {
-  bodyElement.style.setProperty("color", "#fff");
+  be.style.setProperty("color", "#fff");
   be.style.setProperty("--primary", "#fff");
   be.style.setProperty("--secondary", "#fff");
   be.style.setProperty("--grey", "#8b8b97");

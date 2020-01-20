@@ -6,30 +6,9 @@
     <description>Recent content on DevSpace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
-    <lastBuildDate>Thu, 10 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://devspace.mx/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Estrenamos sitio web</title>
-      <link>https://devspace.mx/posts/test-devspace-copy/</link>
-      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://devspace.mx/posts/test-devspace-copy/</guid>
-      <description>Hola mundo Prueba sitio web
-// mmm osi osi console.log(&amp;#34;Hola mundo&amp;#34;); =&amp;gt; λ &amp;#34;Hola mundo&amp;#34; </description>
-    </item>
-    
-    <item>
-      <title>Estrenamos sitio web</title>
-      <link>https://devspace.mx/posts/test-devspace/</link>
-      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://devspace.mx/posts/test-devspace/</guid>
-      <description>Hola mundo Prueba sitio web
-// mmm osi osi console.log(&amp;#34;Hola mundo&amp;#34;); =&amp;gt; λ &amp;#34;Hola mundo&amp;#34; </description>
-    </item>
     
   </channel>
 </rss>
