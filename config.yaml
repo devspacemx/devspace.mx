@@ -1,6 +1,6 @@
 baseURL: "https://devspace.mx"
 languageCode: "es-MX"
-title: "DevSpace"
+title: "Comunidad DevSpace"
 theme: "novela"
 paginate: 8
 social:
