@@ -213,8 +213,13 @@ img {
 }
 
 .hide-on-mobile {
-  /*PHABLET*/
   @media screen and (max-width: $phablet) {
+    display: none;
+  }
+}
+
+.hide-on-tablet {
+  @media screen and (max-width: $tablet) {
     display: none;
   }
 }
