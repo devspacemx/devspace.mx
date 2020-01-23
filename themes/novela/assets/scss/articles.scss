@@ -70,6 +70,30 @@
   }
 }
 
+.hero-heading::after {
+  content: "_";
+  opacity: 0;
+  animation: cursor 1.5s infinite;
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .grid-button {
   position: relative;
   display: -webkit-box;
