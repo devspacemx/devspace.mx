@@ -104,11 +104,9 @@ square of 800x800 */}}
 {{ $img := "" }}
 {{/* 1. SEO Image */}}
 {{- if .Params.seo.image -}}
-{{- $img = .Params.seo.image -}}
+{{- $img = print .RelPermalink "/" .Params.seo.image -}}
 {{- else if .Params.avatar -}}
 {{- $img = .Params.avatar -}}
-{{- else if .Params.hero -}}
-{{- $img = print .RelPermalink "/" .Params.hero -}}
 {{- else -}}
 {{ $img = .Site.Params.default_image }}
 {{- end -}}

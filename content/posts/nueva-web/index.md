@@ -5,7 +5,8 @@ excerpt: "Estrenamos nuestro nueva web"
 draft: false
 authors:
   - Alfonso Reyes
-hero: "cover.png"
+seo:
+  image: "cover.png"
 ---
 
 {{< img src="img/mirage-welcome.png" alt="Bienvenido" >}}
