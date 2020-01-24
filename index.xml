@@ -6,9 +6,20 @@
     <description>Recent content on Comunidad DevSpace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
+    <lastBuildDate>Thu, 23 Jan 2020 13:20:18 -0700</lastBuildDate>
     
 	<atom:link href="https://devspace.mx/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Estrenamos nueva web 🎊</title>
+      <link>https://devspace.mx/posts/nueva-web/</link>
+      <pubDate>Thu, 23 Jan 2020 13:20:18 -0700</pubDate>
+      
+      <guid>https://devspace.mx/posts/nueva-web/</guid>
+      <description>Después de meditarlo un tiempo hemos decidido crear una página web para presentar lo que ha hecho la comunidad de DevSpace estos meses y también para guardar un pequeño rincón en esta gran telaraña llamada internet.
+Sobre las publicaciones Publicaremos sobre eventos y talleres realizados por la comunidad, aunque también se va a publicar contenido sobre emprendimiento, tutoriales, guías etc pero en su mayoría contenido creado por miembros de la comunidad.</description>
+    </item>
     
   </channel>
 </rss>

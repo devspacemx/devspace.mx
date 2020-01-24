@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alfonso Reyes on Comunidad DevSpace</title>
-    <link>https://devspace.mx/authors/alfonso-reyes/</link>
-    <description>Recent content in Alfonso Reyes on Comunidad DevSpace</description>
+    <title>Posts on Comunidad DevSpace</title>
+    <link>https://devspace.mx/posts/</link>
+    <description>Recent content in Posts on Comunidad DevSpace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
     <lastBuildDate>Thu, 23 Jan 2020 13:20:18 -0700</lastBuildDate>
     
-	<atom:link href="https://devspace.mx/authors/alfonso-reyes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devspace.mx/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
