@@ -2,7 +2,7 @@
 title: Estrenamos nueva web 🎊
 date: 2020-01-23T13:20:18-07:00
 excerpt: "Estrenamos nuestro nueva web"
-draft: true
+draft: false
 authors:
   - Alfonso Reyes
 hero: "cover.png"
