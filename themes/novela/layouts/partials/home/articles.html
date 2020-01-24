@@ -30,7 +30,8 @@
         {{ if ne $counter 0 }} id="article-link-bigger" {{ $biggerPlaced = true }} {{ end }} {{ end }}>
         <div class="article-data-outer">
           <div class="image-container">
-            <img src="{{ $article.Params.hero }}" class="article-image" alt="Portada del artículo" />
+            <img src="{{ $article.RelPermalink }}/{{ $article.Params.hero }}" class="article-image"
+              alt="Portada del artículo" />
           </div>
           <div class="article-data">
             <h3 class="article-title">

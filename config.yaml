@@ -13,6 +13,10 @@ taxonomies:
 enableEmoji: true
 languageCode: "es-MX"
 defaultContentLanguage: "es"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 params:
   author: DevSpace
   description: "Somos una comunidad de estudiantes que busca desarrollarse de manera profesional y potencializar nuestras soft-skills y hard-skills mediante el aprendizaje colectivo y meetups.
