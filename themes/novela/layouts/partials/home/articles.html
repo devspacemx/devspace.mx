@@ -41,8 +41,8 @@
               {{ $article.Params.excerpt }}
             </p>
             <div class="article-metadata">
-              {{ $article.Date.Format "January 2, 2006" }}{{ if $article.Params.timetoread }} •
-              {{ $article.Params.timetoread }} minutos para leer{{ end }}
+              {{ $article.Date.Format "January 2, 2006" }} •
+              {{ math.Round (div (countwords .Content) 220.0) }} minutos para leer
             </div>
           </div>
         </div>
