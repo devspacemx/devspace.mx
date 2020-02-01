@@ -208,7 +208,7 @@ img {
   justify-content: center;
   flex-direction: row;
   @media screen and (max-width: $tablet) {
-    display: block;
+    display: inline-flex;
   }
 }
 
