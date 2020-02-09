@@ -24,7 +24,7 @@ body {
   color: #fff;
   --primary: #fff;
   --secondary: #fff;
-  --grey: #8b8b97;
+  --grey: #b2b2be;
   --background-color: #1e1d24;
   --accent: #e9daac;
   --hover: rgbrgba(255, 255, 255, 0.07);
@@ -38,44 +38,6 @@ body {
   --horizontalRule: rgba(255, 255, 255, 0.15);
   --inputBackground: rgba(255, 255, 255, 0.07);
   --tooltip: #000;
-
-  /**
-    --primary: #222222;
-    --secondary: #73737d;
-    --grey: #44444b;
-    --background-color: #fafafa;
-    --accent: #6166dc;
-    --hover: rgba(0, 0, 0, 0.07);
-    --articleText: #08080b;
-    --track: rgba(8, 8, 11, 0.3);
-    --progress: #000;
-    --card: #fff;
-    --error: #ee565b;
-    --success: #46b17b;
-    --errorBackground: rgba(238, 86, 91, 0.1);
-    --horizontalRule: rgba(8, 8, 11, 0.15);
-    --inputBackground: rgba(0, 0, 0, 0.05);
-    --tooltip: lightgrey;
-*/
-  /**
-    be.style.setProperty("color", "#fff");
-  be.style.setProperty("--primary", "#fff");
-  be.style.setProperty("--secondary", "#fff");
-  be.style.setProperty("--grey", "#8b8b97");
-  be.style.setProperty("--background-color", "#1e1d24");
-  be.style.setProperty("--accent", "#E9DAAC");
-  be.style.setProperty("--hover", "rgba(255, 255, 255, 0.07)");
-  be.style.setProperty("--articleText", "#fff");
-  be.style.setProperty("--track", "rgba(255, 255, 255, 0.3)");
-  be.style.setProperty("--progress", "#fff");
-  be.style.setProperty("--card", "#1D2128");
-  be.style.setProperty("--error", "#EE565B");
-  be.style.setProperty("--success", "#46B17B");
-  be.style.setProperty("--errorBackground", "rgba(238, 86, 91, 0.1)");
-  be.style.setProperty("--horizontalRule", "rgba(255, 255, 255, 0.15)");
-  be.style.setProperty("--inputBackground", "rgba(255, 255, 255, 0.07)");
-  be.style.setProperty("--tooltip", "#000");
-  */
 
   /*PRISM*/
   --token: #fff;
