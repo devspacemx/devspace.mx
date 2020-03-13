@@ -54,7 +54,7 @@ Si deseas colaborar con el proyecto es necesario que cumplas con unos cuantos re
    cd devspace.mx
    ```
 
-    Estos comandos van a clonar el repositorio y abrir la carpeta del repo
+   Estos comandos van a clonar el repositorio y abrir la carpeta del repo
 
 ### Ejecución
 
@@ -64,7 +64,7 @@ Si deseas colaborar con el proyecto es necesario que cumplas con unos cuantos re
    hugo server -D
    ```
 
-    El comando "hugo server" va a levantar un servidor live reload para que puedas ver los cambios hechos en tiempo real a tu código
+   El comando "hugo server" va a levantar un servidor live reload para que puedas ver los cambios hechos en tiempo real a tu código
 
 Una vez te sientas cómodo con los cambios que haz realizado, crea un Pull Request describiendo los cambios que realizaste, si dichos cambios son apropiados y además no rompen la página entonces aceptaremos tu Pull Request y se hará merge con la rama master del proyecto.
 
@@ -80,7 +80,7 @@ Una vez te sientas cómodo con los cambios que haz realizado, crea un Pull Reque
 
 ### Core-Team
 
-- [Alfonso Reyes](http://github.com/mrarc)
+- [Alfonso Reyes](http://github.com/mxarc)
 
 ### Otros contribuidores
 
